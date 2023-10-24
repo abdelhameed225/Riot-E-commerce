@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot | Login</title>
+    <link rel="stylesheet" href="./style2.css">
+    <!-- Fontawesome CDN Link For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <header>
+        <div class="container">
+        <div>
+        <a href="./index.html"><img class="logo" src="./New folder/Untitled-removebg-preview.png" alt=""></a>
+      </div>
+    <div>
+      <a href="./index.html">Home</a>
+    <a href="./about.html">About Us</a>
+    <a href="./login.html">Contact Us</a>
+    </div>
+    </div>
+        <nav class="navbar" >
+          <a href="./login.html">Login</a>
+
+          
+            <!-- shopping -->
+    <!-- open btn -->
+    <button id="open_cart_btn">
+      <img src="./New folder/icons8-cart-64.png" alt="" style="width: 30px;">
+  </button>
+
+  <!-- items -->
+
+
+  <!-- backdrop -->
+  <div class="backdrop">
+
+  </div>
+
+  <!-- sidecart -->
+  <div id="sidecart" class="sidecart">
+  <div class="cart_content">
+  <!-- cart header -->
+  <div class="cart_header">
+      <img src="./New folder/icons8-cart-64.png" alt="" style="width: 30px;"/>
+      <div class="header_title">
+          <h2>Your Cart</h2>
+          <span id="items_num">0</span>
+      </div>
+      <span id="close_btn" class="close_btn">&times;</span>
+  </div>
+  <!-- cart item -->
+  <div class="cart_items"></div>
+  <!-- cart actions -->
+  <div class="cart_actions">
+      <div class="subtotal">
+          <p>SUBTOTAL:</p>
+          <P>$<span id="subtotal_price">0</span> </P>
+      </div>
+      <button class="clearbtn" onclick="clearCart()">Clear Cart</button>
+      <button>Checkout</button>
+  </div>
+</div>
+</div>
+      <!-- shopping -->
+        </nav>
+      </header>
+
+
+<br><br><br>
+<br><br><br>
+<br><br>
+
+    <form action="thank-you.html">
+      <h2>Sing Up</h2>
+      <div class="form-group fullname">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Enter your full name">
+      </div>
+      <div class="form-group email">
+        <label for="email">Email Address</label>
+        <input type="text" id="email" placeholder="Enter your email address">
+      </div>
+      <div class="form-group password">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password">
+        <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+      </div>
+      <div class="form-group date">
+        <label for="date">Birth Date</label>
+        <input type="date" id="date" placeholder="Select your date">
+      </div>
+      <div class="form-group gender">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="" selected disabled>Select your gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <div class="form-group submit-btn">
+        <input type="submit" value="Submit">
+      </div>
+      
+    </form>
+
+
+<br><br>
+<br><br>
+
+
+<footer>
+  <div class="First">
+    <img  src="./New folder/Untitled-removebg-preview.png" alt="">
+  </div>
+  <div class="second">
+    <p>Data User</p>
+    <a href="">Home</a>
+    <a href="">About Us</a>
+    <a href="">Login</a>
+  </div>
+
+  <div class="second">
+    <p>Contact Us</p>
+    <a href="">Facebook</a>
+    <a href="">Twitter</a>
+    <a href="">Instagram</a>
+  </div>
+  <div class="second">
+    <p>Legal</p>
+    <a href="">Terms of Use</a>
+    <a href="">Sitemap</a>
+    <a href="">Privacy Policy</a>
+  </div>
+  
+  <div class="subscribe">
+    <p><b> Subscribe To Our Email</b></p>
+    <br>
+    <h1>For Latest News & Update</h1>
+    <br>
+  <div class="search">
+    <input placeholder="Enter Your Email..." type="text">
+    <button type="submit">Subscribe</button>
+  </div>
+</div>
+</footer>
+
+
+<div class="third">
+  <span>&copyAbd-Elhameed 2023</span>
+  <br>
+  <p>--iti project .</p>
+</div>
+      
+      
+
+    <script src="./main2.js"></script>
+    <script src="./cart.js"></script>
+  </body>
+</html>
